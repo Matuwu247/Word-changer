@@ -1,0 +1,67 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column; /* Alinear elementos verticalmente */
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px; /* Añade espacio alrededor del contenedor */
+}
+/* Estilos para el título */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos para los inputs y el botón */
+input[type="text"] {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    border:none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#texto,
+/* Estilos para el div que contiene el texto corregido */
+/* Estilos para el div que contiene el texto corregido */
+#texto-correjido {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    width: 15rem; /* Utiliza el ancho necesario según el contenido */
+    height: 3rem;
+    box-sizing: border-box;
+}
+#texto-correjido{
+    height: 5rem;
+}
+
+
+/* Estilos para las palabras resaltadas */
+.resaltado {
+    background-color: yellow;
+}
